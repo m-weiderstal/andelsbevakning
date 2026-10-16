@@ -17,6 +17,7 @@
 # Snuten
 # Analytikern
 # Bengan
+Dybban
 #
 # Musketörerna (namnet står i speltiteln):
 # Simon
