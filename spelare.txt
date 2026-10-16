@@ -1,0 +1,26 @@
+# Spelare du vill ha notiser om – ett namn per rad.
+# Ta bort # framför de du vill följa. Tom fil (bara #-rader) = alla spelare.
+# Det räcker med en del av namnet, stora/små bokstäver spelar ingen roll.
+#
+# Timman
+# Bobby
+# Andreas
+# Nord
+# TuggaPuck
+# Dahl
+# Adam Perleroth
+# Borg
+# Junifalken
+# Herman
+# Goding
+# Persson
+# Snuten
+# Analytikern
+# Bengan
+#
+# Musketörerna (namnet står i speltiteln):
+# Simon
+# Wiiken
+# Klister
+# Albin
+# Ljungkan

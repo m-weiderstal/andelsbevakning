@@ -1,0 +1,10 @@
+# Spelformer du vill ha notiser om – en per rad.
+# Ta bort # framför de du vill följa. Tom fil (bara #-rader) = alla spel.
+#
+# Stryktipset
+# Europatipset
+# Topptipset
+# Powerplay
+# Bomben
+# Big9
+# Challenge
