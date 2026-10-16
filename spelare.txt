@@ -2,11 +2,11 @@
 # Ta bort # framför de du vill följa. Tom fil (bara #-rader) = alla spelare.
 # Det räcker med en del av namnet, stora/små bokstäver spelar ingen roll.
 #
-# Timman
-# Bobby
-# Andreas
+Timman
+Bobby
+Andreas
 # Nord
-# TuggaPuck
+TuggaPuck
 # Dahl
 # Adam Perleroth
 # Borg
@@ -16,7 +16,7 @@
 # Persson
 # Snuten
 # Analytikern
-# Bengan
+Bengan
 Dybban
 #
 # Musketörerna (namnet står i speltiteln):
