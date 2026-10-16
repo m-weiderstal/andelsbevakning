@@ -44,7 +44,7 @@ SPEL_ALIAS = {
 
 PATTERN = re.compile(
     r'<img[^>]+alt="([^"]*)"'                                                # bild = ny spelargrupp
-    r'|<a[^>]+href="(https://gamblingcabin\.se/and/[^"]+)"[^>]*>(.*?)</a>',  # andelslänk
+    r'|<a[^>]+href="((?:https://gamblingcabin\.se)?/and/[^"]+)"[^>]*>(.*?)</a>',  # andelslänk (abs/rel)
     re.S | re.I,
 )
 
@@ -74,7 +74,7 @@ def parse(page: str) -> dict:
         if m.group(1) is not None:
             bettare = bettarnamn(m.group(1))
             continue
-        href, title = m.group(2), clean(m.group(3))
+        href, title = urllib.parse.urljoin(URL, m.group(2)), clean(m.group(3))
         if not title:
             continue
         # Nyckel = länk + titel, eftersom samma länk-slug ibland återanvänds med ny text

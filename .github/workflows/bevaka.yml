@@ -29,5 +29,6 @@ jobs:
         run: |
           git config user.name "andelsbevakning"
           git config user.email "actions@users.noreply.github.com"
+          [ -f andelar_seen.json ] || exit 0
           git add andelar_seen.json
           git diff --cached --quiet || (git commit -m "Uppdatera sedda andelar" && git push)
